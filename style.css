@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+#search {
+    width: 250px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+.login-btn{
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-btn:hover{
+    background-color: #ddd;
+}
+.hero {
+    background-image: url(image/360_F_216473592_NefHePTpMfvYMNjD3UQTUVJy7DFPwqKA.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.products-section {
+    padding: 20px;
+}
+.products-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+.card h3{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.price {
+    color: green;
+    font-weight: bold;
+}
+.pagination{
+    text-align: center;
+    margin: 30px 0;
+}
+.pagination button{
+    padding: 8px 15px;
+    margin: 0 10px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.pagination button:hover{
+    background: #444;
+}
+#pageNumber{
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer {
+    background: #111;
+    color: #CCC;
+    margin-top: 40PX;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+.footer-box{
+    min-width: 200px;
+    margin-top: 20px;
+}
+.footer-box h3{
+    color: white;
+    margin-bottom: 15px;
+
+}
+.footer-box ul {
+    list-style: none;
+    padding: 0px;
+}
+.footer-box ul li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footer-box ul li:hover {
+    color: white;
+}
+.footer-box p{
+    font-size: 14px;
+    margin: 15px 0;
+
+}
+.footer-bottom {
+    background: #000;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    color: #aaa;
+}
