@@ -138,3 +138,24 @@ body {
     font-size: 14px;
     color: #aaa;
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+
+    #search {
+        width: 100%;
+        order: 3;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+}
+
